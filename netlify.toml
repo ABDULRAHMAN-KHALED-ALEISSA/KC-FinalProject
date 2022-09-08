@@ -1,0 +1,15 @@
+[build]
+command = "npm run build"
+publish = "/build"
+base = "/"
+
+[[redirects]]
+form = "/*"
+to = "/index.html"
+status = 200
+
+[build]
+command = "npm run build && npm run export"
+publish = "out"
+[![Netlify Status](https://api.netlify.com/api/v1/badges/76da80d2-dd74-4351-aa50-be324f30c04b/deploy-status)](https://app.netlify.com/sites/ezdesign/deploys)
+76da80d2-dd74-4351-aa50-be324f30c04b

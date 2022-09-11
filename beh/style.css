@@ -2,7 +2,9 @@
 body {
     background-image: url('');
     /* الصوره */
-   
+    background: url(/login/١٢٣.jpeg);
+  background-size: cover;
+
     margin: 0;
   }
   * {

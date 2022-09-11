@@ -1,3 +1,8 @@
+body {
+  background: url(/login/١٢٣.jpeg);
+  background-size: cover;
+}
+
 .toggle {
     --width: 50px;
     --height: calc(var(--width) / 2);
@@ -5,6 +10,7 @@
   
     display: inline-block;
     cursor: pointer;
+ 
   }
   
   .toggle__input {
